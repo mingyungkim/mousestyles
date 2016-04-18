@@ -31,13 +31,15 @@ Exploratory Analysis
 
    -  Original Classification:
 
-.. figure:: figure/original_ASIS.png
-   :alt: alt tag
+   .. figure:: figure/original_ASIS.png
+      :align: center
+      :scale: 10%
+      :alt: alt tag
 
    -  Improved Classification:
 
-.. figure:: figure/improved_ASIS.png
-   :alt: alt tag
+   .. figure:: figure/improve_ASIS.png
+      :alt: alt tag
 
 -  EDA on their result to get a rough idea of the expectation: Summary
    statistics and plots can serve starting points to answer our
@@ -46,13 +48,13 @@ Exploratory Analysis
 
    -  Food Consumed:
 
-.. figure:: figure/food.png
-   :alt: alt tag
+   .. figure:: figure/food.png
+      :alt: alt tag
 
    -  Distance Traveled:
 
-.. figure:: figure/distance.png
-   :alt: alt tag
+   .. figure:: figure/distance.png
+      :alt: alt tag
 
 Data Requirements Description
 -----------------------------
@@ -82,13 +84,13 @@ Methodology/ Approach Description
 
    -  Events:
 
-.. figure:: figure/event.png
-   :alt: alt tag
+   .. figure:: figure/event.png
+      :alt: alt tag
 
    -  IST vs AS numbers:
 
-.. figure:: figure/IST.png
-   :alt: alt tag
+   .. figure:: figure/IST.png
+      :alt: alt tag
 
 3. Third Step: Use Markov chain to model the transition between events:
 
@@ -129,10 +131,10 @@ Testing Framework Outline
 Additional Remarks:
 -------------------
 
--  Is IS/AS given or should be predicted?
+-  IS/AS, is given or should be predicted?
 -  The definition of AS/IS, is strictly defined or can be revised? 
--  Are we predicting unobservable/hiden states (hungry? bored?)
--  Mice cannot bring water to home base?
+-  Predicting unobservable/hiden states (hungry? bored?)
+-  Cannot bring water to home base?
 -  Expectation expectation on this subproject? 
 
 References:
