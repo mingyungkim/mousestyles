@@ -31,7 +31,13 @@ Exploratory Analysis
 
    -  Original Classification:
 
+   .. figure:: figure/original_ASIS.PNG
+      :alt: alt tag
+
    -  Improved Classification:
+
+   .. figure:: figure/improve_ASIS.PNG
+      :alt: alt tag
 
 -  EDA on their result to get a rough idea of the expectation: Summary
    statistics and plots can serve starting points to answer our
@@ -40,7 +46,13 @@ Exploratory Analysis
 
    -  Food Consumed:
 
+   .. figure:: figure/food.PNG
+      :alt: alt tag
+
    -  Distance Traveled:
+
+   .. figure:: figure/distance.PNG
+      :alt: alt tag
 
 Data Requirements Description
 -----------------------------
@@ -70,7 +82,13 @@ Methodology/ Approach Description
 
    -  Events:
 
+   .. figure:: figure/event.PNG
+      :alt: alt tag
+
    -  IST vs AS numbers:
+
+   .. figure:: figure/IST.PNG
+      :alt: alt tag
 
 3. Third Step: Use Markov chain to model the transition between events:
 
@@ -111,9 +129,11 @@ Testing Framework Outline
 Additional Remarks:
 -------------------
 
--  Improvement on the definition of AS/IS: whether inside HomeBase
-   movement count as AS as well?
--  latent variables?
+-  IS/AS, is given or should be predicted?
+-  The definition of AS/IS, is strictly defined or can be revised? 
+-  Predicting unobservable/hiden states (hungry? bored?)
+-  Cannot bring water to home base?
+-  Expectation expectation on this subproject? 
 
 References:
 -----------
