@@ -570,8 +570,8 @@ def get_dynamics_plot(df, strain_num,
         a plot of behavior dynamics of a fake mouse of the
         given strain_num. The x-axis is the time stamps that
         start from 0. For strain_num = 0, the x-aixs is from
-        0 to 92,400. For stain_num = 1, the x-axis is from 0
-        90,000. For strain_num = 2, the x-axis is from 0 to
+        1 to 92,400. For stain_num = 1, the x-axis is from 1
+        90,000. For strain_num = 2, the x-axis is from 1 to
         88,800. We assign different colors for different
         states. In the plot, blue represents IS, bright green
         represents eating, yellow represents drinking,
@@ -584,7 +584,7 @@ def get_dynamics_plot(df, strain_num,
     >>> time_df_eg = pd.DataFrame(time_df_eg)
     >>> time_df_eg.rename(columns={0:'strain'}, inplace=True)
     >>> dynamics_plot_eg = get_dynamics_plot(time_df_eg, 0,
-                  np.arange(10, 40, 10), np.arange(0, 40, 1))
+                  np.arange(10, 40, 10), np.arange(1, 40, 1))
     """
     # check all the inputs
     condition_df = (type(df) == pd.core.frame.DataFrame)
